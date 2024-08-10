@@ -2,7 +2,7 @@ window.addEventListener("scroll", () => {
   const scrollPos = window.scrollY;
   const ball = document.querySelector(".ball");
   const gradientBall = document.querySelector(".gradient-ball");
-  const targetHeight = 1600;
+  const targetHeight = 1700;
   const maxScale = Math.max(window.innerWidth, window.innerHeight);
 
   const scaleFactor = Math.min(scrollPos / targetHeight, 1);
